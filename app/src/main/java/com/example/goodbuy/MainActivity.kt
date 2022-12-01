@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener {
-            textView.text = "Hello Kitty!"
+            textView.text = getString(R.string.hello_kitty)
         }
     }
 }
